@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PositioningActivity">
+
+    <ImageView
+        android:id="@+id/floorimg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/floormap"></ImageView>
+
+    <ImageView
+        android:id="@+id/b5"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="209dp"
+        android:layout_marginBottom="260dp"
+        android:src="@android:drawable/ic_notification_overlay" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/b9"-->
+<!--        android:layout_width="10dp"-->
+<!--        android:layout_height="10dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="301dp"-->
+<!--        android:layout_marginBottom="201dp"-->
+<!--        android:src="@android:drawable/ic_notification_overlay" />-->
+
+    <ImageView
+        android:id="@+id/b3"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="221dp"
+        android:src="@android:drawable/ic_notification_overlay" />
+
+    <ImageView
+        android:id="@+id/b4"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="245dp"
+        android:src="@android:drawable/ic_notification_overlay" />
+
+    <ImageView
+        android:id="@+id/b2"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="209dp"
+        android:layout_marginBottom="207dp"
+        android:src="@android:drawable/ic_notification_overlay" />
+
+    <ImageView
+        android:id="@+id/b1"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="174dp"
+        android:layout_marginBottom="193dp"
+        android:src="@android:drawable/ic_notification_overlay" />
+
+    <ImageView
+        android:id="@+id/b6"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="273dp"
+        android:src="@android:drawable/ic_notification_overlay" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/b7"-->
+<!--        android:layout_width="10dp"-->
+<!--        android:layout_height="10dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="325dp"-->
+<!--        android:layout_marginBottom="241dp"-->
+<!--        android:src="@android:drawable/ic_notification_overlay" />-->
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/b10"-->
+<!--        android:layout_width="30dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="194dp"-->
+<!--        android:layout_marginBottom="183dp"-->
+<!--        android:alpha="0.5"-->
+<!--        android:src="@android:drawable/ic_notification_overlay" />-->
+
+    <ImageView
+        android:id="@+id/b11"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="302dp"
+        android:visibility="invisible"></ImageView>
+        android:src="@android:drawable/ic_notification_overlay" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/b12"-->
+<!--        android:layout_width="30dp"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="195dp"-->
+<!--        android:layout_marginBottom="212dp"-->
+<!--        android:alpha="0.5"-->
+<!--        android:src="@android:drawable/ic_notification_overlay" />-->
+
+    <ImageView
+        android:id="@+id/b13"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="175dp"
+        android:layout_marginBottom="225dp"
+        android:alpha="0.0"
+        android:visibility="invisible"
+        android:src="@android:drawable/ic_notification_overlay" />
+
+</RelativeLayout>
